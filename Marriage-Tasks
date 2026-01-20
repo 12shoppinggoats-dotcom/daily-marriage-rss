@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Daily Marriage Task</title>
+    <description>One simple daily action to strengthen your marriage</description>
+    <link>https://example.com</link>
+    <language>en-us</language>
+
+    <item>
+      <title>Marriage Task of the Day</title>
+      <description>
+        💍 Today’s task: Tell your spouse one specific thing you appreciate about them.
+      </description>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>daily-marriage-task</guid>
+    </item>
+
+  </channel>
+</rss>
