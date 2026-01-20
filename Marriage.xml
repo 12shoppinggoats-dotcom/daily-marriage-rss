@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Daily Marriage Task</title>
+    <script>
+const tasks = [
+"Tell your spouse one thing you admire about them.",
+"Initiate a 6-second kiss today.",
+"Ask your spouse how you can support them today.",
+"Do one small task they usually handle.",
+"Send a loving text message for no reason.",
+"Say thank you for something they often do.",
+"Put your phone away during one conversation.",
+"Give a genuine compliment face-to-face.",
+"Ask about their day and really listen.",
+"Plan something small you can do together this week."
+];
+
+const day = new Date().getDate();
+document.write("💍 Daily Marriage Task:<br><br>✔ " + tasks[day % tasks.length]);
+</script>
+    <link>https://example.com</link>
+    <language>en-us</language>
+
+    <item>
+      <title>Marriage Task of the Day</title>
+      <description>
+        💍 Today’s task: Tell your spouse one specific thing you appreciate about them.
+      </description>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>daily-marriage-task</guid>
+    </item>
+
+  </channel>
+</rss>
